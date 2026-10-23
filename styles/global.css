@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  font: inherit;
+}
+
+.content-section {
+  box-sizing: border-box;
+  max-width: 1100px;
+  min-height: 180px;
+  margin: auto;
+}
+
+.cover {
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+}
+
+.frame1 {
+  background-image: url("../images/card-lot-01.jpg");
+  background-size: cover;
+}
+
+.frame2 {
+  background-image: url("../images/card-lot-02.jpg");
+  background-size: cover;
+}
+
+.frame3 {
+  background-image: url("../images/card-lot-03.jpg");
+  background-size: cover;
+}
+
+.content-section_theme_light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.content-section_theme_dark {
+  background-color: #000000;
+  color: #ffffff;
+}

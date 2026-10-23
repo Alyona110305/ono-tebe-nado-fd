@@ -1,0 +1,178 @@
+1) Блоки макета:
+1-й блок (Главная):
+  header:
+	menu
+	logo
+	contacts
+  cover (изображение+полупрозрачный фон+текст белый):
+	title
+	description
+2-й блок (Лоты):
+  lots:
+	title
+	Frame1 (изображение+полупрозрачный фон+текст белый)
+	Frame2 (изображение+полупрозрачный фон+текст белый)
+	Frame3 (изображение+полупрозрачный фон+текст белый)
+	more (ссылка)
+3-ий блок (Об аукционе):
+  about:
+	logo-column (лого)
+	about-column (текст с описанием)
+4-ый блок (Подвал):
+  footer:
+	contacts
+	menu
+	socials
+
+2) contacts и в шапке и в подвале
+(изображение+полупрозрачный фон+текст белый) и в cover и в карточках с лотами
+
+3) оформление:
+Шрифты: 
+
+(title)
+font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 100px;
+leading-trim: NONE;
+line-height: 114.99999999999999%;
+letter-spacing: 30%;
+text-transform: uppercase;
+
+у тебе и надо появляется horizontal alement (center и right)
+
+(description)
+font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 28px;
+letter-spacing: 0%;
+text-transform: uppercase;
+(button)
+font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+(Frames)
+заголовок
+font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-offset: 0%;
+text-decoration-thickness: 0%;
+
+текст
+font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 120%;
+letter-spacing: 0%;
+
+#FFFFFF
+
+
+(lots)
+font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+(more)
+font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+(about)
+заголовок
+font-family: Raleway;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+1-ая и 2-ая часть текста
+font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0%;
+(menu)
+font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+(contacts и в подвале и в заголовке)
+font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 24.3px;
+letter-spacing: 0%;
+#000000
+
+Контент
+Лого на первой странице
+svg формат
+overlay везде
+#000000 60%
+overlay на главной (ширина на высоту) 1100 757 пикс
+overlay для лотов 334 596 пикс (выравнивание по центру отновительно родителя, рассточния между элеметнами одно)
+Лого на about
+width: 240;
+height: 240;
+top: 35px;
+left: 47px;
+angle: 0 deg;
+opacity: 1;
+Оформление соц сети в подвале (относительно группы по центру, относительно родителя - снизу в правом углу)
+width: 48;
+height: 48;
+angle: 0 deg;
+opacity: 1;
+border-width: 1px;
+
+
+Обрати внимание на разделители в шапке в меню, в фигме они обозначаются как list_marker
+width: 6;
+height: 6;
+top: 142px;
+left: 130px;
+angle: 0 deg;
+opacity: 1;
+border-width: 0.5px;
+
+и есть слова, подчеркиваемые и обычные
+иконки для обозначения соцсетей - это что?
+
+	
