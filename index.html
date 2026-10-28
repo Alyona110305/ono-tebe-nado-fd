@@ -14,13 +14,13 @@
       <nav class="header__menu">
         <ul class="header__links-list">
             <li class="header__links-list-item_no-bullit header__link_active">
-              <a class="header__link">главная</a>
+              <a href="#cover" class="header__link">главная</a>
             </li>
             <li class="header__links-list-item">
-              <a  class="header__link"  href="#">посмотреть лоты</a>
+              <a href="#lots" class="header__link">посмотреть лоты</a>
             </li>
             <li class="header__links-list-item">
-              <a  class="header__link"  href="#">об аукционе</a>
+              <a href="#about" class="header__link">об аукционе</a>
             </li>
         </ul>
       </nav>
@@ -31,14 +31,21 @@
         alt="Логотип для светлого фона"
         >
       </a>
-      <address class="address header__address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <div>наб. Принсенграхт 263- 265, Амстердам</div>
+      <address class="header__address">
+        <div class="contacts">
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        </div>
+        <div class="address">наб. Принсенграхт 263-265, Амстердам</div>
       </address>
     </header>
     <main class="main">
-      <section class="cover content-section content-section_theme_dark">
+      <section class="cover content-section content-section_theme_dark" id="cover">
+        <img
+          class="cover-img"
+          src="./images/cover.jpg"
+          alt="Фоновое изображение главной страницы"
+        />
         <div class="overlay"></div>
         <h1 class="cover__title">
           <span class="aligned-text_left letter-spacing-extended">оно</span>
@@ -49,7 +56,7 @@
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
-      <section class="lots content-section">
+      <section class="lots content-section" id="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
@@ -82,7 +89,7 @@
         </ul>
         <a class="lots__look-more-link" href="#">посмотреть больше</a>
       </section>
-      <section class="about content-section content-section_theme_light">
+      <section class="about content-section content-section_theme_light" id="about">
         <div class="about__column about__logo">
           <div class="black__background__logo">
             <img 
@@ -110,14 +117,14 @@
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-            <li class="footer__menu-list-item">
-              <a class="footer__menu-link footer__menu-link_active">главная</a>
+            <li class="footer__menu-list-item footer__menu-link_active">
+              <a href="#cover" class="footer__menu-link">главная</a>
             </li>
             <li class="footer__menu-list-item">
-              <a  class="footer__menu-link"  href="#">посмотреть лоты</a>
+              <a href="#lots" class="footer__menu-link">посмотреть лоты</a>
             </li>
             <li class="footer__menu-list-item">
-              <a  class="footer__menu-link"  href="#">об аукционе</a>
+              <a href="#about" class="footer__menu-link">об аукционе</a>
             </li>
         </ul>
       </nav>

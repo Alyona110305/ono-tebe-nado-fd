@@ -36,7 +36,6 @@ a {
 }
 
 img {
-  /* width: 100%; */
 }
 
 button {
@@ -46,16 +45,12 @@ button {
 
 .content-section {
   box-sizing: border-box;
-  /* max-width: 100%; */
-  /* margin: auto; */
 }
 
-.cover {
+/* .cover {
   background-image: url("../images/cover.jpg");
   background-size: cover;
-  /* width: 124.73%; */
-  height: 120.83%;
-}
+} */
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
@@ -88,14 +83,9 @@ button {
   color: #ffffff;
 }
 
-.header__links-list {
-  margin-left: 22px;
+.header {
+  margin: 0 105.6px;
 }
 
 .header__address {
-  margin-right: 50px;
-}
-
-.cover {
-  margin-right: 14px;
 }
