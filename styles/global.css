@@ -27,15 +27,34 @@ blockquote {
   padding: 0;
 }
 
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+img {
+  vertical-align: middle;
+  display: block;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
 .cover {
-  margin-bottom: 180px;
+  /* margin-bottom: 180px; */
 }
 
 a {
   color: inherit;
 }
 
-img {
+.card img {
+  position: absolute;
+  max-width: none;
+  pointer-events: none;
 }
 
 button {
@@ -47,31 +66,6 @@ button {
   box-sizing: border-box;
 }
 
-/* .cover {
-  background-image: url("../images/cover.jpg");
-  background-size: cover;
-} */
-
-.card_type_film {
-  background-image: url("../images/card-lot-01.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.card_type_book {
-  background-image: url("../images/card-lot-02.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.card_type_picture {
-  background-image: url("../images/card-lot-03.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 .content-section_theme_light {
   background-color: #ffffff;
