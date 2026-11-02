@@ -29,8 +29,9 @@
   position: relative;
   grid-template-columns: 1fr max-content 1fr;
   align-items: center;
-  padding-top: 95px;
-  padding-bottom: 94px;
+  justify-self: center;
+  padding: 92px 0 96px;
+  margin: auto;
 }
 
 li::marker {
@@ -61,15 +62,17 @@ li::marker {
 .header__link {
   color: #000;
   font-size: 18px;
-  line-height: 1.5;
+  /* line-height: 1.5; */
   display: inline-block;
-  text-decoration: none;
-  border-bottom: 1px solid #000;
-  padding-bottom: 1px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 9px;
+  /* border-bottom: 1px solid #000;
+  padding-bottom: 5px; */
 }
 
 .header__link_active {
-  border-bottom: none;
+  text-decoration: none;
 }
 
 .header__logo {
@@ -88,6 +91,7 @@ li::marker {
   display: flex;
   flex-direction: column;
   justify-self: end;
+  align-self: end;
   max-width: 240px;
 }
 
@@ -97,18 +101,22 @@ li::marker {
   align-items: flex-start;
   font-size: 18px;
   font-style: normal;
-  line-height: 1.35;
+  gap: 4.5px;
+  margin-bottom: 3px;
+  /* line-height: 1.45; */
 }
 
 .contacts a {
-  text-decoration: none;
-  border-bottom: 1px solid #000;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+  text-decoration-skip-ink: auto;
 }
 
 .address {
   font-size: 18px;
   font-style: normal;
-  line-height: 1.35;
+  line-height: 1.335;
 }
 
 .cover {
