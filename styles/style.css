@@ -31,7 +31,7 @@
   align-items: center;
   justify-self: center;
   padding: 92px 0 96px;
-  margin: auto;
+  margin: 0 50px;
 }
 
 li::marker {
@@ -66,7 +66,8 @@ li::marker {
   display: inline-block;
   text-decoration: underline;
   text-decoration-thickness: 1px;
-  text-underline-offset: 9px;
+  text-underline-offset: 3.5px;
+  text-decoration-skip-ink: none;
   /* border-bottom: 1px solid #000;
   padding-bottom: 5px; */
 }
@@ -109,8 +110,8 @@ li::marker {
 .contacts a {
   text-decoration: underline;
   text-decoration-thickness: 1px;
-  text-underline-offset: 6px;
-  text-decoration-skip-ink: auto;
+  text-underline-offset: 4px;
+  text-decoration-skip-ink: none;
 }
 
 .address {
