@@ -36,3 +36,8 @@ img {
 a {
   color: inherit;
 }
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
