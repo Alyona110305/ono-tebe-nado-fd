@@ -209,7 +209,7 @@ li::marker {
 .lots {
   box-sizing: border-box;
   background-color: #fff;
-  padding-top: 150px;
+  padding-top: 165px;
 }
 
 .lots__heading {
@@ -217,7 +217,7 @@ li::marker {
   color: #000;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 44px;
+  margin-bottom: 20px;
   margin-left: 40px;
   line-height: 1.5;
 }
@@ -311,7 +311,7 @@ li::marker {
 
 .about__column_type_logo {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: flex-start;
 }
 
@@ -376,21 +376,22 @@ li::marker {
   flex-direction: column;
   align-items: center;
   list-style: none;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 
 .footer__menu-link {
   color: #000;
   font-size: 18px;
-  line-height: 1.5;
-  text-decoration: none;
+  /* line-height: 1.5; */
   display: inline-block;
-  border-bottom: 1px solid #000;
-  padding-bottom: 1px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3.5px;
+  text-decoration-skip-ink: none;
 }
 
 .footer__menu-link_active {
-  border-bottom: none;
+  text-decoration: none;
 }
 
 .footer__social-list {
@@ -398,7 +399,7 @@ li::marker {
   flex-direction: row;
   gap: 48px;
   list-style: none;
-  justify-self: end;
+  justify-self: center;
 }
 
 .footer__social-link {
