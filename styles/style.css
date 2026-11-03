@@ -209,7 +209,7 @@ li::marker {
 .lots {
   box-sizing: border-box;
   background-color: #fff;
-  padding-top: 170px;
+  padding-top: 175px;
 }
 
 .lots__heading {
@@ -313,6 +313,8 @@ li::marker {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 22px;
 }
 
 .about__logo-circle {
