@@ -28,9 +28,9 @@
   position: relative;
   grid-template-columns: 1fr max-content 1fr;
   align-items: center;
-  /* justify-self: center; */
-  padding: 92px 230px 96px;
-  /* margin: 0 50px; */
+  justify-self: center;
+  padding: 92px 0 96px;
+  margin: 0 50px;
 }
 
 li::marker {
