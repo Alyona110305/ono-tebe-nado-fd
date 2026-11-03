@@ -3,10 +3,9 @@
   --content-inline-gutter: 24px;
 }
 
-.header,
+/* .header, */
 .lots,
-.about,
-.footer {
+.about {
   width: min(
     calc(100% - var(--content-inline-gutter) - var(--content-inline-gutter)),
     var(--content-max-width)
@@ -29,9 +28,9 @@
   position: relative;
   grid-template-columns: 1fr max-content 1fr;
   align-items: center;
-  justify-self: center;
-  padding: 92px 0 96px;
-  margin: 0 50px;
+  /* justify-self: center; */
+  padding: 92px 230px 96px;
+  /* margin: 0 50px; */
 }
 
 li::marker {
@@ -148,9 +147,12 @@ li::marker {
   z-index: 2;
   width: min(100% - 100px, 1000px);
   margin: 0 auto;
-  padding-top: 147px;
+  padding-top: 165px;
   font-weight: 700;
-  line-height: 1.15;
+  gap: 20px;
+  align-self: center;
+  justify-self: center;
+  /* line-height: 1.15; */
 }
 
 .aligned-text_center {
@@ -159,6 +161,8 @@ li::marker {
 
 .aligned-text_right {
   align-self: end;
+  justify-self: end;
+  margin-right: -0.3em;
 }
 
 .letter-spacing-extended {
@@ -204,7 +208,7 @@ li::marker {
 .lots {
   box-sizing: border-box;
   background-color: #fff;
-  padding-top: 180px;
+  padding-top: 120px;
 }
 
 .lots__heading {
@@ -238,7 +242,7 @@ li::marker {
   flex-direction: column;
   position: relative;
   min-height: 596px;
-  padding: 48px 40px 40px;
+  padding: 48px 40px;
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -266,10 +270,11 @@ li::marker {
   font-weight: normal;
   margin: 30px 0 0 40px;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
   display: inline-block;
-  border-bottom: 1px solid #000;
-  padding-bottom: 3px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3.5px;
+  text-decoration-skip-ink: none;
 }
 
 .card__title {
